@@ -3,17 +3,25 @@
   height: 200px;
   background-color: #fff;
   color: #008b8b;
-  border: 2px solid #7fff00;
+  border: 3px solid #7fff00;
   margin: 5px;
   border-radius: 5px;
   transition: 0.5s;
+}
+
+.Dead {
+  border-color: #8b0000;
 }
 
 .card img {
   width: 120px;
   height: 120px;
   border-radius: 100%;
-  border: 2px solid #7fff00;
+  border: 3px solid #7fff00;
+}
+
+.Dead img {
+  border-color: #8b0000;
 }
 
 .card h3 {
